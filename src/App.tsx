@@ -156,6 +156,7 @@ export default function App() {
             </div>
             <div className="lg:col-span-8 space-y-4">
               {[
+                { title: "ReadyNow", desc: "Disaster Risk Site", url: "https://readynow-is-1.vercel.app/", icon: <Sparkles size={20} /> },
                 { title: "PlayIT", desc: "Music Player Web App", url: "https://play-it-liard.vercel.app/app.html", icon: <Music size={20} /> },
                 { title: "Landing Page", desc: "Creative Showcase", url: "https://giansambas.github.io/landingpage/#features", icon: <Layout size={20} /> },
                 { title: "Machine Problems", desc: "Technical Solutions", url: "https://giansambas.github.io/mp5mp2/", icon: <Terminal size={20} /> }
