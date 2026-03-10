@@ -89,12 +89,10 @@ export default function App() {
           >
             <div className="aspect-[4/5] rounded-[48px] overflow-hidden border-8 border-white shadow-2xl shadow-zinc-200 relative group">
               <img 
-                src="/gianportfolio.jpg" 
+                src="/gianportfolio.jpg"
                 alt="Gian Edward Sambas"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                 referrerPolicy="no-referrer"
-                onError={(e) => {
-                  e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop";
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
